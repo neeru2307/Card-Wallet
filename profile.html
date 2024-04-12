@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styleProfile.css">
+    <link rel="stylesheet" href="styleHome.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="user-icon" id="user-icon">
+            <button class="user" id="user">
+                <i class="fa-solid fa-user"></i>
+            </button>
+        </div>
+        <div class="dropdown-content" id="dropdown-content">
+            <ul>
+                <li><a href="home.html"><div>Home</div></a></li> 
+                <li><a href="updatePassword.html"><div>Change Password</div></a></li>
+                <li><a id="logout"><div>Logout</div></a></li>
+            </ul>            
+        </div>
+    </div>
+
+    <div class="user-details">
+        <img src="images/User.png" alt="userIcon">
+        <h1 id="username"></h1>
+        <div class="user-content">
+            <div class="info">
+                <h3>Name:</h3>
+                <h4 id="name"></h4>
+            </div>
+            <div class="info">
+                <h3>Contact:</h3>
+                <h4 id="contact"></h4>
+            </div>
+            <div class="info">
+                <h3>Address:</h3>
+                <h4 id="address"></h4>
+            </div>
+            <div class="info">
+                <h3>Gender:</h3>
+                <h4 id="gender"></h4>
+            </div>
+            <div class="info">
+                <h3>DOB:</h3>
+                <h4 id="dob"></h4>
+            </div>
+
+
+        </div>
+    </div>
+    
+
+    <script src="https://kit.fontawesome.com/949815e5ea.js" crossorigin="anonymous"></script>
+    <script src="scriptProfile.js"></script>
+</body>
+</html>
